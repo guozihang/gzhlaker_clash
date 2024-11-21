@@ -11,15 +11,15 @@ import Settings from 'src/components/proxies/Settings';
 import BaseModal from 'src/components/shared/BaseModal';
 import { connect, useStoreActions } from 'src/components/StateProvider';
 import Equalizer from 'src/components/svg/Equalizer';
-import { proxyFilterTextAtom } from 'src/store/proxies';
 import {
   fetchProxies,
   getDelay,
   getProxyGroupNames,
   getProxyProviders,
   getShowModalClosePrevConns,
+  proxyFilterTextAtom,
 } from 'src/store/proxies';
-import type { DelayMapping, DispatchFn, FormattedProxyProvider, State } from 'src/store/types';
+ import type { DelayMapping, DispatchFn, FormattedProxyProvider, State } from 'src/store/types';
 
 import { TextFilter } from '$src/components/shared/TextFilter';
 import { useApiConfig } from '$src/store/app';

@@ -44,6 +44,9 @@
   display: none;
 }
 
+._btn_lzu00_1 {
+  margin-right: 10px;
+}
 .react-tabs__tab-panel--selected {
   display: block;
 }
